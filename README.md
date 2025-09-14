@@ -1,9 +1,8 @@
-🚆 Train Maintenance Backend
-
+Train Maintenance Backend
 This repository contains the backend service for the Train Maintenance Monitoring System.
 It provides REST APIs to fetch and manage train fault/crack data stored in MongoDB Atlas.
 
-⚡ Getting Started
+Getting Started
 
 Step 1: Clone the repository using the project’s Git URL
 git clone <YOUR_BACKEND_GIT_URL>
@@ -26,21 +25,21 @@ npm run dev
 Server runs at:
 http://localhost:4000/api/trains
 
-🛠️ Built With
+Built With
 Node.js + Express.js → API framework
 MongoDB Atlas → Cloud database
 Mongoose → Schema modeling
 dotenv → Environment variables
 CORS
 
-📂 Data Source
+Data Source
 For testing and seeding, the backend uses a mock dataset provided as trainData.js.
 You can find it here:
 backend/seed.js
 
 This file was created from the mockup database JSON (used in frontend at shih-train-fault-insights/src/data/data.js), ensuring consistency between frontend and backend.
 
-📡 API Endpoints
+API Endpoints
 
 Get all trains
 GET /api/trains
