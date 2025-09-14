@@ -48,5 +48,8 @@ GET /api/trains
 Get single train by ID
 GET /api/trains/:train_id
 
+Backend Done by :
+Kunal Khandelwal
+
 Related Repository
-Frontend Repo: [Train Maintenance Frontend](https://github.com/CodeByZammah/shih-train-fault-insights.git)
+Frontend Repo: [Train Maintenance Frontend](https://github.com/KunalKhandelwal-dev/SIH_Frontend.git)
