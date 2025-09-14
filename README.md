@@ -18,7 +18,7 @@ Step 4: Set up environment variables
 Create a .env file in the root directory based on .env.example:
 
 PORT_API=4000
-MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/trainDB
+MONGO_URI=mongodb+srv://<username>:<password>@cluster1.gjkssjp.mongodb.net
 
 Step 5: Start the development server with auto-reloading
 npm run dev
